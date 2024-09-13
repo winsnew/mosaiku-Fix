@@ -2,4 +2,3 @@
 node_modules
 client/node_modules
 client/.next
-client/tailwind.config.js
