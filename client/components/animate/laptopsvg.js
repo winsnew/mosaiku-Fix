@@ -16,9 +16,9 @@ const LaptopAnimate = () => {
   21 -26 20 0 3115 c0 3101 0 3114 20 3134 20 20 33 20 5538 20 5336 0 5519 -1
   5535 -18z"/>
 
-                    <rect x="4500" y="7300" width="11000px" height="6200" fill="#fff" stroke="#000" stroke-width="10" rx="20" ry="20" />
+                    <rect x="4500" y="7300" width="11000px" height="6200" fill="#fff" stroke="#000" strokeWidth="10" rx="20" ry="20" />
                     <rect x="4600" y="12700" width="10800px" height="300" fill="#ddd" stroke="#000" />
-                    <text x="10000" y="2000" transform="scale(0.5, -0.5)" transform-origin="8500 8000" font-family="Arial" font-size="1000">
+                    <text x="10000" y="2000" transform="scale(0.5, -0.5)" transform-origin="8500 8000" fontFamily="Arial" fontSize="1000">
                         <tspan fill="blue">G</tspan>
                         <tspan fill="red">o</tspan>
                         <tspan fill="yellow">o</tspan>
@@ -26,10 +26,9 @@ const LaptopAnimate = () => {
                         <tspan fill="green">l</tspan>
                         <tspan fill="red">e</tspan>
                     </text>
-                    <rect x="8500" y="10500" width="3000" height="300" fill="#fff" stroke="#000" stroke-width="2"/>
-
-                    <rect x="320" y="220" width="1300" height="40" fill="#fff" stroke="#ccc" stroke-width="2" />
-                    <line x1="320" y1="220" x2="1620" y2="220" stroke="#ccc" stroke-width="2" />
+                    <rect x="8500" y="10500" id="search-box"  width="3000" height="300" fill="#fff" stroke="#000" strokeWidth="2"/>
+                    <text x="18500" y="-21100" className="search-text" font-family="Arial" transform="scale(0.5, -0.5)" font-size="600" fill="#000" class="search-text">MosaikuFix</text>
+                    <line x1="320" y1="220" x2="1620" y2="220" stroke="#ccc" strokeWidth="2" />
                     <circle cx="4720" cy="13300" r="100" fill="red" />
                     <circle cx="4990" cy="13300" r="100" fill="yellow" />
                     <circle cx="5290" cy="13300" r="100" fill="green" />

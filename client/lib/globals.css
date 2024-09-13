@@ -18,6 +18,36 @@
     animation: openScreen 3s ease forwards;
 }
 
+#search-box {
+    animation: zoomIn 3s ease forwards;
+}
+
+.search-text {
+    animation: typing 5s steps(30, end) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid black;
+    /* Simulasi cursor */
+}
+
+@keyframes typing {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+@keyframes zoomIn {
+    0% {
+        zoom: 0;
+    }
+
+    100% {
+        zoom: 1;
+    }
+}
 
 @keyframes showBrowser {
     0% {

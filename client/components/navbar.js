@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -7,13 +8,15 @@ const Navbar = () => {
         <nav className="backdrop-blur-md py-1 bg-[hsla(0,0%,100%,.01)] fixed inset-0 border-b border-[hsla(0,0%,100%,.08)] z-50 h-fit">
             <ul className="container-lg flex justify-between items-center">
                 <li className="flex gap-1 items-center">
-                    <Image
-                        src="/logo/mosaiku-png.png"
-                        alt="Logo Light"
-                        width={70}
-                        height={70}
-                    />
-                    <h1 className="font-medium">MosaikuFIx</h1>
+                    <Link href="/" className="flex items-center">
+                        <Image
+                            src="/mosaiku-png.png"
+                            alt="Logo Light"
+                            width={70}
+                            height={70}
+                        />
+                        <h1 className="font-medium">MosaikuFIX</h1>
+                    </Link>
                 </li>
                 <li className="text-sm cursor-pointer hidden lg:block">
                     Features
@@ -44,8 +47,6 @@ const Navbar = () => {
                         Sign up
                     </button>
                 </li>
-                
-
             </ul>
         </nav>
     )
