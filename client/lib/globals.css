@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-lg {
+    @apply px-4 sm:container lg:px-0;
+}
+
+/* animasi laptop */
+
+#laptop {
+    transform-origin: bottom;
+    animation: openLaptop 3s ease forwards;
+}
+
+#screen {
+    transform-origin: bottom;
+    animation: openScreen 3s ease forwards;
+}
+
+
+@keyframes showBrowser {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showWebsite {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
