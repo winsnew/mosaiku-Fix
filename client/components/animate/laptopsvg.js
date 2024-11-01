@@ -27,7 +27,7 @@ const LaptopAnimate = () => {
                         <tspan fill="red">e</tspan>
                     </text>
                     <rect x="8500" y="10500" id="search-box"  width="3000" height="300" fill="#fff" stroke="#000" strokeWidth="2"/>
-                    <text x="18500" y="-21100" className="search-text" font-family="Arial" transform="scale(0.5, -0.5)" font-size="600" fill="#000" class="search-text">MosaikuFix</text>
+                    <text x="18500" y="-21100" className="search-text" fontFamily="Arial" transform="scale(0.5, -0.5)" fontSize="600" fill="#000">MosaikuFix</text>
                     <line x1="320" y1="220" x2="1620" y2="220" stroke="#ccc" strokeWidth="2" />
                     <circle cx="4720" cy="13300" r="100" fill="red" />
                     <circle cx="4990" cy="13300" r="100" fill="yellow" />
